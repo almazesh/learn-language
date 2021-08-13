@@ -1,0 +1,18 @@
+.root{
+    text-align: center;
+}
+
+.root button{
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    background: none;
+    border:0;
+    border-bottom: 1px solid gold;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.root button:hover{
+    border-bottom: 1px solid red;
+}

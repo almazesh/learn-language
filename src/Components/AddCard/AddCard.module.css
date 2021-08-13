@@ -1,0 +1,32 @@
+.root{
+    width: 50%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.root input{
+    padding: 1rem;
+    width: 100%;
+    margin-right: 1rem;
+    border-radius: 6px;
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid gold;
+}
+
+.root button{
+    border: 0;
+    background-color: gold;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 1rem;
+
+}
+
+.root button:disabled{
+    background-color: gold;
+    opacity: 0.5;
+    cursor: no-drop;
+}
